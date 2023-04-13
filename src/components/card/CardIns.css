@@ -1,0 +1,70 @@
+:root {
+    --primary: #fff;
+
+    --light-color: #FFFFFF;
+    --font-color: 000000;
+    --backgroud-color: #fff;
+    --font: 'Poppins', sans-serif;
+    --font-logo: #192945;
+    --btn-alternativo: #4688F2;
+}
+
+.card-container {
+    font-family: var(--font);
+    font-size: 14px;
+    margin: 20px;
+    border: none!important;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img {
+    border-radius: 1px!important;
+    border: 1px solid rgb(0 0 0 / 18%);
+    border-bottom: none;
+}
+
+.card-body{
+    border: 1px solid rgb(0 0 0 / 18%);
+    border-top: none;
+}
+
+.card-title{
+    color: #008080;
+}
+
+.arrow{
+    color: #008080;
+    text-align: center;
+}
+
+.card-arrow{
+    width: 23px;
+    height: 23px;
+    background-color: #E6F2F2;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 60vh;
+}
+
+.carousel-indicators .active {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .card-body{
+        border: 1px solid rgb(0 0 0 / 18%);
+        border-top: none;
+    }
+    
+    @media only screen and (max-width: 758px) {
+
+        .card-body{
+            border: 1px solid rgb(0 0 0 / 18%);
+            border-top: none;
+        }
+        .card-arrow{
+            margin-left: 20vh;
+        }
+    }
+}
